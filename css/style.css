@@ -1,0 +1,40 @@
+.title-block{
+  background: url(../img/fon.jpg) top no-repeat; 
+  height: 580px; 
+  margin: 0;
+  
+}
+
+.title-block:after{
+  content: "";
+  background: rgba(0,0,0,.4);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  height: 580px;
+}
+
+.account{
+  position: absolute;
+  z-index: 100;
+  right: 20px;
+  top: 10px;
+
+}
+
+.corusel-img{
+  height: 400px
+}
+
+.corusel-img:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: rgba(0, 0, 0, .5);
+  z-index: 10
+}
